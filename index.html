@@ -218,11 +218,11 @@
             <script>
                 function getddl(val){
                     var f=50;
-                    var p=75*val;
-                    var t=val*p;
+                    var p=val*75;
+                    var t=p+f;
                     document.getElementById("pizaprice").value=p;
                     document.getElementById("fee").value=f;
-                    document.getElementById("Price").value=t+f*val;
+                    document.getElementById("Price").value=t;
                 }
             </script>
             
